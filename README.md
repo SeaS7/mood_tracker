@@ -1,5 +1,7 @@
 # 🌟 Mood Tracker  
 
+🔗 **Live Demo:** [Mood Tracker](https://mood-tracker-smoky-chi.vercel.app/)
+
 A simple and elegant **Mood Tracker** web application that allows users to log their daily moods with emojis, add notes, and track their emotional trends over time. The app supports **dark mode** and **saves history locally** for easy access.
 
 ## 🚀 Features  
@@ -33,12 +35,8 @@ A simple and elegant **Mood Tracker** web application that allows users to log t
 ## 📸 Screenshots  
 
 ### 🌞 Light Mode  
-![Light Mode Screenshot](link-to-image-light-mode)  
+![image](https://github.com/user-attachments/assets/42aa4599-a5cd-4a11-8d32-df79e730693a)
+
 
 ### 🌙 Dark Mode  
-![Dark Mode Screenshot](link-to-image-dark-mode)  
-
----
-
-## 📂 Project Structure  
-
+![image](https://github.com/user-attachments/assets/ea7e1111-d52d-42b0-a20f-46c6d988ddc4)
