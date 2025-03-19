@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mood Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <button id="themeToggle">🌙</button>
+      <h1>🌈 Mood Tracker</h1>
+      <div class="content">
+        <!-- Mood Selection & Entry -->
+        <div class="card mood-entry">
+          <h2>Log Your Mood</h2>
+          <p>Select your mood for today:</p>
+
+          <div class="mood-options">
+            <button class="mood-btn" data-mood="😊">😊</button>
+            <button class="mood-btn" data-mood="😐">😐</button>
+            <button class="mood-btn" data-mood="😢">😢</button>
+            <button class="mood-btn" data-mood="😡">😡</button>
+            <button class="mood-btn" data-mood="😍">😍</button>
+          </div>
+
+          <textarea
+            id="moodNote"
+            placeholder="Write a short note..."
+          ></textarea>
+          <button id="saveMood">Save Mood</button>
+        </div>
+
+        <!-- Mood History -->
+        <div class="card mood-history">
+          <h2>📅 Mood History</h2>
+          <ul id="moodList"></ul>
+          <button id="clearHistory">🗑️ Clear History</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
